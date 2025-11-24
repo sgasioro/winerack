@@ -100,7 +100,7 @@ class WineRack extends Component<{}, State> {
 
     // Generate grid positions transposed - rows as letters, columns as numbers
     generateGridPositions = () => {
-        const rows = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
+        const rows = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O'];
         const columns = Array.from({ length: 10 }, (_, i) => i + 1);
         
         return rows.map(row => ({
