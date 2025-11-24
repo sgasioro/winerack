@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A React application to manage and display a wine rack using data from Google Sheets.",
   "main": "src/index.tsx",
+  "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
